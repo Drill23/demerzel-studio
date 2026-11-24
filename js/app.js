@@ -24,14 +24,14 @@
 
   /* ---------- constelação do hero ---------- */
   const constel = $("#constelacao");
-  const aneis = [0.36, 0.44, 0.5];
+  // ângulos espalhados de forma que os nomes de lados opostos não fiquem na mesma altura
   S.projetos.forEach((p, i) => {
-    const anel = aneis[i % 3];
-    const ang = (i / S.projetos.length) * Math.PI * 2 - Math.PI / 2 + (i % 3) * 0.2;
+    const anel = i % 2 ? 0.4 : 0.46;
+    const ang = (i / S.projetos.length) * Math.PI * 2 - Math.PI / 2 + (10 * Math.PI) / 180;
     const x = 50 + Math.cos(ang) * anel * 100;
     const y = 50 + Math.sin(ang) * anel * 100;
     const a = document.createElement("a");
-    a.className = "estrela" + (x > 55 ? " esq" : "");
+    a.className = "estrela" + (x > 62 ? " esq" : "");
     a.href = "#" + p.id;
     a.style.setProperty("--x", x + "%");
     a.style.setProperty("--y", y + "%");
