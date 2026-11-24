@@ -264,7 +264,7 @@
                   <i class="av grande-av"></i>
                   <b class="pf-nome">Seu perfil</b>
                   <ul class="pf-lista">
-                    <li>Trocar perfil</li><li>Minha lista</li><li class="pf-yt"><em>▶</em>YouTube</li><li>Ajustes</li>
+                    <li>Continuar assistindo</li><li class="pf-yt"><em>▶</em>YouTube</li><li>Ajustes</li><li>Trocar perfil</li>
                   </ul>
                 </div>
                 <div class="yt-s s3">

@@ -75,7 +75,7 @@ window.SITE = {
           "Pouca gente sabe: dentro do Lume tem um YouTube completo, sem anúncios, sem pagar assinatura. É o YouTube de sempre — só que do jeito Premium.",
         passos: [
           { t: "Abra o Lume", d: "Na TV, no celular ou no iPhone — entre com a sua conta normalmente." },
-          { t: "Vá no seu perfil", d: "Clique no seu perfil. Na TV, ele fica no fim do menu lateral: é só descer com o controle." },
+          { t: "Vá no seu perfil", d: "No celular e no iPhone, toque no seu perfil no canto de cima, à direita. Na TV, ele fica no fim do menu lateral: é só descer com o controle." },
           { t: "Encontre o YouTube", d: "Toque em YouTube e pronto: vídeos sem propaganda, à vontade." }
         ],
         obs: "Não aparece no perfil infantil — de propósito."
