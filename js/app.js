@@ -255,14 +255,14 @@
             <div class="fone grande yt-fone passo-1" id="ytFone" aria-hidden="true">
               <div class="fone-tela">
                 <div class="yt-s s1">
-                  <div class="ys-topo"><b>Lume</b><i class="av"></i></div>
+                  <div class="ys-topo"><b>Lume</b><span class="ys-nav"><i class="lupa"></i><i class="mais">•••</i></span></div>
                   <div class="ft-hero"><span class="mono selo">DESTAQUE</span><b>Neon Rio</b><u>▶ Assistir</u></div>
                   <div class="fila mini">${posterHTML(4, 2)}</div>
                   <div class="fila mini">${posterHTML(4, 5)}</div>
                 </div>
                 <div class="yt-s s2">
                   <i class="av grande-av"></i>
-                  <b class="pf-nome">Seu perfil</b>
+                  <b class="pf-nome">Seu perfil</b><small class="pf-sub mono">Perfil ativo</small>
                   <ul class="pf-lista">
                     <li>Continuar assistindo</li><li class="pf-yt"><em>▶</em>YouTube</li><li>Ajustes</li><li>Trocar perfil</li>
                   </ul>

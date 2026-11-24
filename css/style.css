@@ -287,11 +287,16 @@ section { position: relative; }
 .passo-1 .s1, .passo-2 .s2, .passo-3 .s3 { opacity: 1; transform: none; }
 .ys-topo { display: flex; justify-content: space-between; align-items: center; padding: 50px 16px 10px; }
 .ys-topo b { font-family: var(--serif); font-style: italic; font-weight: 400; font-size: 24px; color: var(--lume); }
+.ys-nav { display: flex; gap: 6px; align-items: center; }
+.ys-nav i { width: 30px; height: 30px; border-radius: 50%; background: rgba(255,255,255,.1); display: grid; place-items: center; font-style: normal; font-size: 10px; letter-spacing: 1px; color: #fff; }
+.ys-nav .lupa { background: rgba(255,255,255,.1) radial-gradient(circle at 45% 45%, transparent 5px, #fff 5.5px 6.8px, transparent 7.3px); }
+.passo-1 .ys-nav .mais { animation: brilha 1.4s .5s ease-in-out infinite; }
 .av { width: 30px; height: 30px; border-radius: 50%; background: linear-gradient(135deg, #ff9a62, #c2410c); display: block; }
 .s1 .ft-hero { margin: 0 12px 10px; border-radius: 16px; height: 38%; background: linear-gradient(0deg, rgba(7,7,7,.8) 2%, transparent 60%), linear-gradient(170deg, #ff4fa3, #2a0b3d 80%); }
 .s2 { align-items: center; padding-top: 70px; background: radial-gradient(80% 50% at 50% 10%, rgba(245,165,36,.18), transparent), #0a0909; }
 .grande-av { width: 86px; height: 86px; box-shadow: 0 0 0 4px rgba(255,255,255,.08); }
 .pf-nome { margin-top: 12px; font-size: 18px; }
+.pf-sub { color: #8a827a; font-size: 10px; margin-top: 2px; }
 .pf-lista { width: 84%; margin-top: 26px; display: flex; flex-direction: column; gap: 8px; }
 .pf-lista li { padding: 13px 14px; border-radius: 14px; background: rgba(255,255,255,.06); font-size: 14px; display: flex; align-items: center; gap: 10px; }
 .pf-lista em, .yv-topo em { font-style: normal; display: grid; place-items: center; width: 24px; height: 17px; border-radius: 5px; background: #ff2a2a; color: #fff; font-size: 8px; }
