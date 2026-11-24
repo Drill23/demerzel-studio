@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demerzel Studio — apps, jogos e IAs do Adriano</title>
+  <meta name="description" content="Portfólio do Demerzel Studio: Lume TV, Lume Music, Sopro, Video Game for All, Hermes e mais — criados pelo Adriano junto com Claude, Codex, Gemini e Hermes.">
+  <meta name="theme-color" content="#0c0b0a">
+  <meta property="og:title" content="Demerzel Studio">
+  <meta property="og:description" content="Uma pessoa com ideias. Uma equipe de IAs pra tirar do papel.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter+Tight:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="marca" href="#topo" aria-label="Demerzel Studio — início">
+      <span class="marca-sol" aria-hidden="true"></span>
+      <span>Demerzel<b>Studio</b></span>
+    </a>
+    <nav class="nav-links" aria-label="Seções">
+      <a href="#projetos">Projetos</a>
+      <a href="#lume-tv">Lume TV</a>
+      <a href="#youtube" class="nav-yt">YouTube grátis</a>
+      <a href="#equipe">Equipe</a>
+      <a href="#diario">Diário</a>
+    </nav>
+    <span class="nav-data mono" id="navData"></span>
+  </header>
+
+  <main id="topo">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-texto">
+        <p class="kicker mono" id="heroKicker"></p>
+        <h1 id="heroTitulo"></h1>
+        <p class="hero-sub" id="heroTexto"></p>
+        <div class="hero-acoes">
+          <a class="btn btn-luz" href="#projetos">Ver os projetos</a>
+          <a class="btn btn-vidro" href="#youtube">YouTube Premium grátis no Lume →</a>
+        </div>
+      </div>
+      <div class="constelacao" id="constelacao" aria-label="Mapa dos projetos">
+        <div class="anel a1"></div><div class="anel a2"></div><div class="anel a3"></div>
+        <div class="nucleo"><span>A</span><small>+ IAs</small></div>
+      </div>
+    </section>
+
+    <section class="numeros" id="numeros" aria-label="Em números"></section>
+
+    <div class="faixa" aria-hidden="true"><div class="faixa-trilho" id="faixa"></div></div>
+
+    <!-- ÍNDICE -->
+    <section class="indice" id="projetos">
+      <div class="secao-cab">
+        <p class="kicker mono">Índice</p>
+        <h2>Tudo o que está <em>em construção</em></h2>
+      </div>
+      <div class="filtros" id="filtros" role="tablist" aria-label="Filtrar projetos"></div>
+      <div class="cartoes" id="cartoes"></div>
+    </section>
+
+    <!-- CAPÍTULOS (um por projeto) -->
+    <div id="capitulos"></div>
+
+    <!-- EQUIPE -->
+    <section class="equipe" id="equipe">
+      <div class="secao-cab">
+        <p class="kicker mono">Quem faz</p>
+        <h2>Um humano no comando, <em>seis IAs</em> na bancada</h2>
+        <p class="secao-sub">Nada aqui saiu de um template. Cada versão nasce de uma conversa: o Adriano pede, as IAs constroem, ele testa no aparelho e devolve o que achou.</p>
+      </div>
+      <div class="time" id="time"></div>
+    </section>
+
+    <!-- DIÁRIO -->
+    <section class="diario" id="diario">
+      <div class="secao-cab">
+        <p class="kicker mono">Diário de bordo · 2026</p>
+        <h2>O que mudou, <em>dia a dia</em></h2>
+      </div>
+      <ol class="linha" id="linha"></ol>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-grande">Demerzel<em>Studio</em></div>
+    <div class="rodape-linha">
+      <span id="credito"></span>
+      <span class="mono" id="rodapeData"></span>
+      <a id="rodapeGithub" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+    </div>
+  </footer>
+
+  <script src="js/dados.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
